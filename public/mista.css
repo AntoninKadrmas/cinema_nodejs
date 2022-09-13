@@ -1,0 +1,34 @@
+:root {
+    --Standard: rgb(255, 136, 136);
+    --Deluxe: rgb(155, 82, 82);
+    --SuperDeluxe: rgb(85, 45, 45);
+    --SELECTED: rgb(0, 133, 0);
+  }
+.Obsazeno{
+    background-color: white;
+    background-image: url("/public/img/misto.png");
+
+    background-size: 40px;
+}
+.Standard{
+    background-color: var(--Standard);
+    background-image: url("/public/img/misto.png");
+    background-size: 40px;
+}
+.Deluxe{
+    background-color: var(--Deluxe);
+    background-image: url("/public/img/misto.png");
+    background-size: 40px;
+}
+.UltraDeluxe{
+    background-color: var(--SuperDeluxe);
+    background-image: url("/public/img/misto.png");
+    background-size: 40px;
+}
+.SELECTED
+{
+    /*background-color: var(--SELECTED);*/
+    background-image: url("/public/img/selected.png");
+    background-size: 40px;
+}
+

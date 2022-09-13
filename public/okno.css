@@ -1,0 +1,29 @@
+.celek
+{
+align-items: center;
+width: 100%;
+height: auto;
+min-height: 100%;
+display: flex;
+flex-flow: column;
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;    /* Firefox */
+}
+.celek .vedlejsi
+{
+  margin:40px 0;
+}
+.celek .vedlejsi span
+{
+ padding:10px;
+}
+.back
+{
+  color:white;
+  background-color: var(--main2);
+  border: none;
+  padding: 5px 20px ;
+font-size: 25px;
+border-radius: 5px;
+margin-bottom: 50px;
+}

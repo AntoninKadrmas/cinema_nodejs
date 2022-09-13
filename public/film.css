@@ -1,0 +1,96 @@
+
+.zaklad
+{
+    width:100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text);
+    margin: auto;
+    border-radius: 15px;
+    margin-top:20px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: scroll;
+    padding: 10px 0;
+  height: auto;
+}
+.hlavni 
+{
+height: max-content;
+margin: 10px;
+display: flex;
+flex-flow: column;
+border-radius: 2px;
+width:180px;
+height: 400px;
+background-color: white;
+align-items: center;
+justify-content: center;
+
+}
+.skupinky
+{
+    height: max-content;
+    display: flex;
+    flex-flow: row;
+    width:100%;
+    align-items: center;
+    justify-content: center;  
+    margin: 20px 0;
+}
+.vedlejsi
+{
+    color:black;
+}
+.zanry
+{
+    margin:5px;
+    padding:0 5px;
+    border-radius: 10px;
+    color:white;
+}
+.text
+{
+    width:95%;
+    margin: auto;
+    text-align: center;
+}
+.img
+{
+    width: 100%;
+    max-width: 200px;
+    max-height:250px;
+    height:100%;
+    margin:0;
+}
+h1{
+    color:var(--text);
+    margin:10px auto;
+    text-align: center;
+    font-size: 150%;
+}
+body
+{
+ margin:0;
+}
+.kina
+{
+    background-color: var(--main1);
+    color: white;
+    padding:5px;
+    border:none;
+    width:80px;
+    border-radius: 5px;
+}
+.kina:hover{
+    cursor: pointer;
+}
+.buttonDiv
+{
+    width:auto;
+    margin:auto;
+    margin:10px 0;
+}

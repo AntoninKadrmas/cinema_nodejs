@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- include("head.ejs") %>
+</head>
+<body id="body" onload="show();">
+    <header>
+        <%- include("header.ejs") %>
+    </header>
+    <div class="helper">
+    </div>
+    <main >
+        <%- include("main.ejs") %>
+    </main>
+</body>
+    <%- include("scripts.ejs") %>
+    <script>document.querySelector("#li_login").textContent = "odhlásit se";</script>
+</html>

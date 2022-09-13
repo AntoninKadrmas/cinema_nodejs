@@ -1,0 +1,75 @@
+
+:root {
+    --main1: rgb(248, 114, 4);
+    --main2: rgba(62,5,102);
+    --text: white;
+    --background: linear-gradient(135deg, #3e0566 0%, #ff922b 100%);
+    --reversebackground: linear-gradient(315deg, #3e0566 0%, #ff922b 100%);
+
+  }
+.header{
+display: flex;
+flex-flow: row;
+background: var(--background);
+min-width:max-content;
+min-height: 100px;
+height: auto;
+}
+.fixed
+{
+  position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+li{
+ display: inline-block;
+ margin:20px;
+ color:white;
+ font-weight: 550;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+}
+li:after {
+
+    content: '';
+    border-bottom: solid 3px var(--text);  
+    transform: scaleX(0);  
+    transition: transform 200ms ease-in-out;
+  }
+li:hover:after { transform: scaleX(1);  }
+li,button:hover{
+    cursor: pointer;
+}
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.zaklad::-webkit-scrollbar {
+    display: none;
+  }
+/*  */
+/* login sing up */
+/*  */
+.input{
+  font-size: 15px;
+  border-radius: 7px;
+  text-align: center;
+  border:none;
+  padding: 10px;
+}
+.input:hover{
+cursor: pointer;
+}
+.input:focus, .submit:focus{
+  outline: none;
+}
+.submit{
+  margin:15px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: none;
+}

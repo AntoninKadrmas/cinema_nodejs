@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href= "/public/sedadlaStyl.css">
+<link rel="stylesheet" href= "/public/mista.css">
+<link rel="stylesheet" href= "/public/tool.css">
+</head>
+<body id="body">
+    <header>
+    </header>
+    <div class="platno">
+        PLÁTNO
+    </div>
+    <div id="cena">
+    </div>
+    <div class="pole">   
+    </div>
+    <form action=""method="post" onsubmit="return getPosition()">
+        <p class = "celkem pismeno">Celková cena: </p>
+        <input type="text" name="time" value = "" hidden>
+        <input type="text" name="kino" value = "" hidden>
+        <input type="text" name="selected" value = "[]" hidden>
+        <input type="submit" value="objednat">
+    </form>
+</body>
+<script src="/public/zmena.js"></script>
+<script src="/public/nacitani.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</html>
