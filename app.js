@@ -134,5 +134,4 @@ app.post('/filmy/:film/:datum',(request,response)=>{
     }
 });
 app.use('/public',express.static('public'));
-//app.use('/',(req,res)=>res.sendFile(__dirname+"/public/index.html"));
 app.listen(port,()=> console.log('posloucham na portu '+ port));

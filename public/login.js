@@ -1,4 +1,3 @@
-body.innerHTML = '<div class="form"style="background:var(--reversebackground);max-width:1000px;min-width:80%;height:400px; display: flex;flex-flow: column;align-items: center;justify-content: center;border-radius:15px"></div>';  
 
 
 function selectForm()
@@ -42,12 +41,15 @@ function register()
     console.log(window.location.href.split('/')[window.location.href.split('/').length-1]);
     switch(window.location.href.split('/')[window.location.href.split('/').length-1]){
     case "login":
+        body.innerHTML = '<div class="form"style="background:var(--reversebackground);max-width:1000px;min-width:80%;height:400px; display: flex;flex-flow: column;align-items: center;justify-content: center;border-radius:15px"></div>';  
         document.onload = selectForm();
         break;
     case "check":
+        body.innerHTML = '<div class="form"style="background:var(--reversebackground);max-width:1000px;min-width:80%;height:400px; display: flex;flex-flow: column;align-items: center;justify-content: center;border-radius:15px"></div>';  
         document.onload = login();
         break;
     case "new":
+        body.innerHTML = '<div class="form"style="background:var(--reversebackground);max-width:1000px;min-width:80%;height:400px; display: flex;flex-flow: column;align-items: center;justify-content: center;border-radius:15px"></div>';  
         document.onload = register();
         break;
     }

@@ -1,7 +1,3 @@
-// function start()
-// {
-//     document.querySelector('.zaklad').style.minHeight  = (window.screen.height -700)+"px";
-// }   
 var cinema =[];
 var body = document.querySelector('.zaklad');
 async function show()
