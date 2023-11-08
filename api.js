@@ -27,7 +27,7 @@ function vsechnyKina(url){
         var datumyJSON=[];
         datumy.forEach(datum=>{
             var pom1=datum.split('.');
-            if(getActualDate()<new Date(pom1[2]+"-"+pom1[1]+"-"+pom1[0]))//zmenit znaminko porovnavani ad to funguje pak
+            if(getActualDate() > new Date(pom1[2]+"-"+pom1[1]+"-"+pom1[0]))//zmenit znaminko porovnavani ad to funguje pak
             {     
                 datumyJSON.push(readJSONFile('./data/film/'+url+'/kino/'+kino+"/"+datum+"/info.json"));
             }
